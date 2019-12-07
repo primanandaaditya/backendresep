@@ -7,7 +7,7 @@ if(isset($_POST["ids"])){
     $ids=$_POST["ids"];
 
     $sql="select recipejoin.id,recipejoin.recipe_id,recipejoin.ingredient_id,recipejoin.created,
-            recipe.name as recipe_name,ingredient.name as ingredient_available
+            recipe.name as recipe_name,ingredient.name as ingredient_available, recipe.pict 
             from recipejoin
             inner join recipe on recipe.id = recipejoin.recipe_id
             inner join ingredient on ingredient.id = recipejoin.ingredient_id
