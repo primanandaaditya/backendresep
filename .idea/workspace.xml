@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ba048005-f460-4b3e-814f-37397447ea47" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/api/coba.php" afterPath="$PROJECT_DIR$/api/recipe_suggest.php" />
+      <change beforePath="$PROJECT_DIR$/api/insert_lunch.php" afterPath="$PROJECT_DIR$/api/insert_lunch.php" />
+      <change beforePath="$PROJECT_DIR$/api/list_ingredient.php" afterPath="$PROJECT_DIR$/api/list_ingredient.php" />
+      <change beforePath="$PROJECT_DIR$/api/recipe_from_id.php" afterPath="$PROJECT_DIR$/api/recipe_from_id.php" />
+      <change beforePath="$PROJECT_DIR$/api/recipe_suggest.php" afterPath="$PROJECT_DIR$/api/recipe_suggest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,88 +17,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="koneksi.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koneksi.php">
+      <file leaf-file-name="add_recipe.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/add_recipe.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding>
+                <marker date="1576345033254" expanded="true" signature="313:354" ph="select * fro... recipe" />
+                <marker date="1576345033254" expanded="true" signature="441:510" ph="insert into recipe... " />
+                <marker date="1576345033254" expanded="true" signature="739:836" ph="INSERT INTO recipejoin... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update_recipe.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/update_recipe.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recipe_from_id.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/recipe_from_id.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
-                <marker date="1575626464850" expanded="true" signature="99:133" ph="select * fro... recipe" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="group_recipe.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/group_recipe.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <marker date="1575630299554" expanded="true" signature="49:386" ph="select recip... recipejoin" />
-                <marker date="1575630299554" expanded="true" signature="425:426" ph="select * fro... recipe" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lunch_history.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/lunch_history.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-              <folding>
-                <marker date="1575723343020" expanded="true" signature="47:383" ph="select lunch... lunch_master" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insert_lunch.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/insert_lunch.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <marker date="1575725019618" expanded="true" signature="263:323" ph="insert into lunch_master... " />
-                <marker date="1575725019618" expanded="true" signature="517:607" ph="INSERT INTO lunch_detail... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recipe_array_id.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/recipe_array_id.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <marker date="1575633572414" expanded="true" signature="102:466" ph="select recip... recipejoin" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recipe_suggest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/recipe_suggest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-              <folding>
-                <marker date="1575720039404" expanded="true" signature="101:535" ph="select recip... recipejoin" />
-                <marker date="1575720039404" expanded="true" signature="979:1694" ph="select ingre... ingredient_id" />
-                <marker date="1575720039404" expanded="true" signature="1103:1406" ph="SELECT ingre... recipejoin" />
-                <marker date="1575720039404" expanded="true" signature="1339:1405" ph="SELECT ingre... recipejoin" />
+                <marker date="1576346184270" expanded="true" signature="313:390" ph="update recipe... " />
+                <marker date="1576346184270" expanded="true" signature="452:498" ph="delete from recipejoin... " />
+                <marker date="1576346184270" expanded="true" signature="698:790" ph="INSERT INTO recipejoin... " />
               </folding>
             </state>
           </provider>
@@ -115,6 +59,10 @@
         <option value="$PROJECT_DIR$/api/coba.php" />
         <option value="$PROJECT_DIR$/api/lunch_history.php" />
         <option value="$PROJECT_DIR$/api/insert_lunch.php" />
+        <option value="$PROJECT_DIR$/api/add_ingredient.php" />
+        <option value="$PROJECT_DIR$/api/edit_ingredient.php" />
+        <option value="$PROJECT_DIR$/api/add_recipe.php" />
+        <option value="$PROJECT_DIR$/api/update_recipe.php" />
       </list>
     </option>
   </component>
@@ -126,8 +74,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="91" />
-    <option name="y" value="339" />
+    <option name="x" value="279" />
+    <option name="y" value="349" />
     <option name="width" value="1400" />
     <option name="height" value="990" />
   </component>
@@ -149,8 +97,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,6 +113,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,12 +154,14 @@
       <workItem from="1575698236422" duration="495000" />
       <workItem from="1575699072067" duration="1313000" />
       <workItem from="1575719327159" duration="250000" />
-      <workItem from="1575719604030" duration="5293000" />
+      <workItem from="1575719604030" duration="5558000" />
+      <workItem from="1576342784073" duration="371000" />
+      <workItem from="1576343202194" duration="2971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23235000" />
+    <option name="totallyTimeSpent" value="26842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -248,6 +198,49 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/api/lunch_history.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+          <folding>
+            <marker date="1575723343020" expanded="true" signature="47:383" ph="select lunch... lunch_master" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/recipe_array_id.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <marker date="1575633572414" expanded="true" signature="102:466" ph="select recip... recipejoin" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/recipe_suggest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <marker date="1576246591494" expanded="true" signature="101:535" ph="select recip... recipejoin" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/insert_lunch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+          <folding>
+            <marker date="1576343176408" expanded="true" signature="287:346" ph="select * fro... lunch_master" />
+            <marker date="1576343176408" expanded="true" signature="433:493" ph="insert into lunch_master... " />
+            <marker date="1576343176408" expanded="true" signature="492:493" ph="insert into ingredient... " />
+            <marker date="1576343176408" expanded="true" signature="711:805" ph="INSERT INTO lunch_detail... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/koneksi.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -260,9 +253,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/group_recipe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <marker date="1575626464850" expanded="true" signature="99:133" ph="select * fro... recipe" />
+            <marker date="1575630299554" expanded="true" signature="49:386" ph="select recip... recipejoin" />
+            <marker date="1575630299554" expanded="true" signature="425:426" ph="select * fro... recipe" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/lunch_history.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+          <folding>
+            <marker date="1575723343020" expanded="true" signature="47:383" ph="select lunch... lunch_master" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/recipe_array_id.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <marker date="1575633572414" expanded="true" signature="102:466" ph="select recip... recipejoin" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/recipe_suggest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <marker date="1576246591494" expanded="true" signature="101:535" ph="select recip... recipejoin" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/insert_lunch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1576343176408" expanded="true" signature="287:346" ph="select * fro... lunch_master" />
+            <marker date="1576343176408" expanded="true" signature="433:493" ph="insert into lunch_master... " />
+            <marker date="1576343176408" expanded="true" signature="492:493" ph="insert into ingredient... " />
+            <marker date="1576343176408" expanded="true" signature="711:805" ph="INSERT INTO lunch_detail... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koneksi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/recipe_from_id.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -292,10 +353,7 @@
         <state relative-caret-position="375">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1575720039404" expanded="true" signature="101:535" ph="select recip... recipejoin" />
-            <marker date="1575720039404" expanded="true" signature="979:1694" ph="select ingre... ingredient_id" />
-            <marker date="1575720039404" expanded="true" signature="1103:1406" ph="SELECT ingre... recipejoin" />
-            <marker date="1575720039404" expanded="true" signature="1339:1405" ph="SELECT ingre... recipejoin" />
+            <marker date="1576246591494" expanded="true" signature="101:535" ph="select recip... recipejoin" />
           </folding>
         </state>
       </provider>
@@ -312,9 +370,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <marker date="1575626464850" expanded="true" signature="99:133" ph="select * fro... recipe" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -344,10 +400,7 @@
         <state relative-caret-position="375">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1575720039404" expanded="true" signature="101:535" ph="select recip... recipejoin" />
-            <marker date="1575720039404" expanded="true" signature="979:1694" ph="select ingre... ingredient_id" />
-            <marker date="1575720039404" expanded="true" signature="1103:1406" ph="SELECT ingre... recipejoin" />
-            <marker date="1575720039404" expanded="true" signature="1339:1405" ph="SELECT ingre... recipejoin" />
+            <marker date="1576246591494" expanded="true" signature="101:535" ph="select recip... recipejoin" />
           </folding>
         </state>
       </provider>
@@ -364,9 +417,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <marker date="1575626464850" expanded="true" signature="99:133" ph="select * fro... recipe" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -396,10 +447,7 @@
         <state relative-caret-position="150">
           <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding>
-            <marker date="1575720039404" expanded="true" signature="101:535" ph="select recip... recipejoin" />
-            <marker date="1575720039404" expanded="true" signature="979:1694" ph="select ingre... ingredient_id" />
-            <marker date="1575720039404" expanded="true" signature="1103:1406" ph="SELECT ingre... recipejoin" />
-            <marker date="1575720039404" expanded="true" signature="1339:1405" ph="SELECT ingre... recipejoin" />
+            <marker date="1576246591494" expanded="true" signature="101:535" ph="select recip... recipejoin" />
           </folding>
         </state>
       </provider>
@@ -416,9 +464,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <marker date="1575626464850" expanded="true" signature="99:133" ph="select * fro... recipe" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -448,10 +494,7 @@
         <state relative-caret-position="150">
           <caret line="6" column="78" lean-forward="false" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
           <folding>
-            <marker date="1575720039404" expanded="true" signature="101:535" ph="select recip... recipejoin" />
-            <marker date="1575720039404" expanded="true" signature="979:1694" ph="select ingre... ingredient_id" />
-            <marker date="1575720039404" expanded="true" signature="1103:1406" ph="SELECT ingre... recipejoin" />
-            <marker date="1575720039404" expanded="true" signature="1339:1405" ph="SELECT ingre... recipejoin" />
+            <marker date="1576246591494" expanded="true" signature="101:535" ph="select recip... recipejoin" />
           </folding>
         </state>
       </provider>
@@ -468,9 +511,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <marker date="1575626464850" expanded="true" signature="99:133" ph="select * fro... recipe" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -500,10 +541,7 @@
         <state relative-caret-position="300">
           <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding>
-            <marker date="1575720039404" expanded="true" signature="101:535" ph="select recip... recipejoin" />
-            <marker date="1575720039404" expanded="true" signature="979:1694" ph="select ingre... ingredient_id" />
-            <marker date="1575720039404" expanded="true" signature="1103:1406" ph="SELECT ingre... recipejoin" />
-            <marker date="1575720039404" expanded="true" signature="1339:1405" ph="SELECT ingre... recipejoin" />
+            <marker date="1576246591494" expanded="true" signature="101:535" ph="select recip... recipejoin" />
           </folding>
         </state>
       </provider>
@@ -520,9 +558,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <marker date="1575626464850" expanded="true" signature="99:133" ph="select * fro... recipe" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -557,23 +593,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/recipe_from_id.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <marker date="1575626464850" expanded="true" signature="99:133" ph="select * fro... recipe" />
-          </folding>
+        <state relative-caret-position="625">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/recipe_suggest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding>
-            <marker date="1575720039404" expanded="true" signature="101:535" ph="select recip... recipejoin" />
-            <marker date="1575720039404" expanded="true" signature="979:1694" ph="select ingre... ingredient_id" />
-            <marker date="1575720039404" expanded="true" signature="1103:1406" ph="SELECT ingre... recipejoin" />
-            <marker date="1575720039404" expanded="true" signature="1339:1405" ph="SELECT ingre... recipejoin" />
+            <marker date="1576246591494" expanded="true" signature="101:535" ph="select recip... recipejoin" />
           </folding>
         </state>
       </provider>
@@ -602,20 +633,74 @@
     <entry file="file://$PROJECT_DIR$/api/lunch_history.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+          <caret line="4" column="56" lean-forward="false" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
           <folding>
             <marker date="1575723343020" expanded="true" signature="47:383" ph="select lunch... lunch_master" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/edit_ingredient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1576344071014" expanded="true" signature="239:275" ph="update ingredient... " />
+            <marker date="1576344071014" expanded="true" signature="239:292" ph="update ingredient... " />
+            <marker date="1576344071014" expanded="true" signature="239:309" ph="update ingredient... " />
+            <marker date="1576344071014" expanded="true" signature="245:257" ph="insert into ingredient... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/add_ingredient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="45" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <marker date="1576343712113" expanded="true" signature="217:248" ph="select * fro... ingredient" />
+            <marker date="1576343712113" expanded="true" signature="217:255" ph="select * fro... ingredient" />
+            <marker date="1576343712113" expanded="true" signature="217:256" ph="select * fro... ingredient" />
+            <marker date="1576343712113" expanded="true" signature="217:257" ph="select * fro... ingredient" />
+            <marker date="1576343712113" expanded="true" signature="217:262" ph="select * fro... ingredient" />
+            <marker date="1576343712113" expanded="true" signature="349:410" ph="insert into ingredient... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/insert_lunch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="725">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
-            <marker date="1575725019618" expanded="true" signature="263:323" ph="insert into lunch_master... " />
-            <marker date="1575725019618" expanded="true" signature="517:607" ph="INSERT INTO lunch_detail... " />
+            <marker date="1576343176408" expanded="true" signature="287:346" ph="select * fro... lunch_master" />
+            <marker date="1576343176408" expanded="true" signature="433:493" ph="insert into lunch_master... " />
+            <marker date="1576343176408" expanded="true" signature="492:493" ph="insert into ingredient... " />
+            <marker date="1576343176408" expanded="true" signature="711:805" ph="INSERT INTO lunch_detail... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/add_recipe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <marker date="1576345033254" expanded="true" signature="313:354" ph="select * fro... recipe" />
+            <marker date="1576345033254" expanded="true" signature="441:510" ph="insert into recipe... " />
+            <marker date="1576345033254" expanded="true" signature="739:836" ph="INSERT INTO recipejoin... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/update_recipe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <marker date="1576346184270" expanded="true" signature="313:390" ph="update recipe... " />
+            <marker date="1576346184270" expanded="true" signature="452:498" ph="delete from recipejoin... " />
+            <marker date="1576346184270" expanded="true" signature="698:790" ph="INSERT INTO recipejoin... " />
           </folding>
         </state>
       </provider>
